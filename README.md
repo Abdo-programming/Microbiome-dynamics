@@ -13,9 +13,6 @@ globals [
 patches-own [ O-glycan-level ]
 
 
-; See the human/mouse microbiome project, and decide on how to construct your breeds.
-; IDEA: Need to create a code-generator, which generates code depending on what species you want to create.
-
 
 breed [ bacteria bacterium ]
 bacteria-own [ energy gene1 gene2 gene3 digestion-lock digestion-duration ]
